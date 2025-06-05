@@ -21,7 +21,7 @@ pipeline {
         }       
         stage('Run Application') {
             steps {
-                sh 'java -jar target/MavenJenkins-1.0-SNAPSHOT.jar'
+                sh 'java -jar target/pava-1.0-SNAPSHOT.jar'
             }
         }        
     }
